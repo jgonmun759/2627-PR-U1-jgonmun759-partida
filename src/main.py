@@ -32,8 +32,8 @@ def valorar_partida(puntuacion: int) -> int:
     return valor
 
 def main():
-    aciertos = int(input("Introduce el número de aciertos: "))
-    errores = int(input("Introduce el número de errores: "))
+    aciertos = int(input())
+    errores = int(input())
 
     if (aciertos >= 0) and (errores >= 0):
         total_preguntas, puntuacion = calcular_resultados(aciertos, errores)
